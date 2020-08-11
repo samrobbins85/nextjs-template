@@ -2,6 +2,9 @@
 
 This is a template repository for when I want to produce a something using Next.js
 
+## License
+This is licensed under MIT, one of the best licenses for open source software. Change the `LICENSE` file if a different license is more suitable.
+
 ## PWA
 
 One of the aspects of this template is that it works as a PWA. This will need additional configuration in order for it to represent the app you are building.
