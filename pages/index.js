@@ -10,7 +10,7 @@ export default function IndexPage() {
 				/>
 			</Head>
 			<div>
-				<h1>Hello, World </h1>
+				<h1 className="text-center">Hello, World </h1>
 			</div>
 		</>
 	);
