@@ -22,3 +22,5 @@ settings:
     linkComponents:
         - name: Link
           linkAttribute: href
+    react:
+        version: detect

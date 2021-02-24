@@ -18,6 +18,7 @@ Again this doesn't need any additional configuration, but can be configured if y
 
 -   `.eslintrc.yml`
 -   `.prettierrc.json`
+-   `.markdownlint.yml`
 
 These configure ESLint and Prettier respectively, ensure that whatever configuration you choose doesn't cause conflicts, such as using tabs in ESLint and spaces in prettier.
 
