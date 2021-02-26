@@ -7,7 +7,7 @@ export default function IndexPage() {
 				<title>Next.js Template</title>
 				<meta
 					name="Description"
-					content="A template Next.js application"
+					content="My template Next.js application"
 				/>
 			</Head>
 			<div>
