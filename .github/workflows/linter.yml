@@ -14,7 +14,17 @@ name: Lint Code Base
 #############################
 # Start the job on all push #
 #############################
-on: [push, pull_request]
+on:
+    push:
+        paths-ignore:
+            - "package.json"
+            - "yarn.lock"
+            - "package-lock.json"
+    pull_request:
+        paths-ignore:
+            - "package.json"
+            - "yarn.lock"
+            - "package-lock.json"
 
 ###############
 # Set the Job #
