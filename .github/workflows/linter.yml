@@ -49,17 +49,11 @@ jobs:
                   # Full git history is needed to get a proper list of changed files within `super-linter`
                   fetch-depth: 0
 
-            - name: Setup node
-              uses: actions/setup-node@v3
-              with:
-                  node-version: "14"
-            - run: npm install
-
             ################################
             # Run Linter against code base #
             ################################
             - name: Lint Code Base
-              uses: github/super-linter@v4
+              uses: github/super-linter/slim@v4
               env:
                   VALIDATE_ALL_CODEBASE: false
                   DEFAULT_BRANCH: main
